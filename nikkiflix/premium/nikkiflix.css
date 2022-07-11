@@ -1,4 +1,5 @@
-/*--- ROOT VARIABLES ---*/
+
+    /*--- ROOT VARIABLES ---*/
     :root {
   --background: #141413;
   --headerbackground: #0f0e0e;
@@ -119,8 +120,8 @@ iframe.tmblr-iframe {display:none; }
 
 #maincover img {
     margin-top:250px;
-    margin-left:20px;
-    width:400px;
+    margin-left:90px;
+    width:300px;
     height:130px;
 }
 
@@ -252,6 +253,7 @@ width: 100%;
     width:240px;
     height:150px;
     margin-top:0;
+    margin-left:0;
     padding-right:10px;
     float:left;
     display:inline-block;
@@ -308,7 +310,7 @@ a {
 .show img, .movie img{
     margin-top:250px;
     margin-left:30px;
-    width:400px;
+    width:300px;
     height:130px;
 }
 
@@ -450,6 +452,12 @@ h2 {
    flex-wrap:wrap;
        counter-increment: section;
 }
+
+#episodes li img {
+  width:120px;
+  height:75px;
+}
+
 
 #episodes li::before {
   content: counter(section)"\a0\a0";
