@@ -66,7 +66,7 @@ iframe.tmblr-iframe {display:none; }
     color:#fff;
 }
 
-#left-content {
+#right-content {
     display:block;
     position:absolute;
     margin-left:85%;
@@ -89,20 +89,20 @@ iframe.tmblr-iframe {display:none; }
 }
 
 
-#left-content .down {
+#right-content .down {
     font-size:18px;
     padding-right:10px;
     margin-top:27px;
     position:absolute;
     right:0;
 }
-#left-content span {
+#right-content span {
     position:absolute;
     margin-top:24px;
     margin-left:10px;
 }
 
-#left-content img {
+#right-content img {
     width:40px;
     height:40px;
     margin-left:105px;
