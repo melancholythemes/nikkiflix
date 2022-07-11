@@ -244,9 +244,9 @@ width: 100%;
 
 }
 #display-scroll {
-    width:200%;
-      height:210px;
-        display: inline-flex;
+    width:auto;
+    height:210px;
+    display: inline-flex;
 }
 #display img {
     width:240px;
