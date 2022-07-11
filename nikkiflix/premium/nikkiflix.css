@@ -306,8 +306,8 @@ a {
 }
 
 .show img, .movie img{
-     margin-top:250px;
-    margin-left:0px;
+    margin-top:250px;
+    margin-left:30px;
     width:400px;
     height:130px;
 }
