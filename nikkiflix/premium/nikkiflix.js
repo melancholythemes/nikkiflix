@@ -114,6 +114,19 @@
 	};
 })(jQuery);  
 
+
+<!-- TOOLTIPS SCRIPT -->
+(function($){
+$(document).ready(function(){
+$("[title]").style_my_tooltips({
+tip_follows_cursor:true,
+tip_delay_time:200,
+tip_fade_speed:350
+});
+});
+})(jQuery);
+</script>
+
 $(document).ready(function() {
 //
 $('a.poplight[href^=#]').click(function() {
